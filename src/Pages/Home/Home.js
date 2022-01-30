@@ -1,13 +1,13 @@
 import React  from 'react'
 import CardList from '../../Components/Card-list/card-list.components';
-import search from '../../components/search/search.components';
+import search from '../../Components/Search/search.components';
 
 class Home extends React.Component{
     constructor(){
         super();
         this.setState = {
-            monsters = [],
-            searchField : ``
+            monsters : [],
+            searchField : ''
         }
     }
     
@@ -38,3 +38,5 @@ class Home extends React.Component{
     }
 
 }
+
+export default Home
